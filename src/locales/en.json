@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "login": "login",
+    "register" : "register",
+    "cart": "cart",
+    "lang": "English"
+  },
+  "banner" :{
+    "applayerName" : "applayer name",
+    "facultyName" : "faculty or institute name",
+    "universityName" : "university name",
+    "search" : "search"
+  },
+  "categories": {
+    "sendOrderTitle" : "send servece order",
+    "sendOrderContent" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "willReceiveMessageTitle" : "you will receive message",
+    "willReceiveMessageContent" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "goToReceiveDocumentTitle" : "go to receive document",
+    "goToRecieveDocumentTitle" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+  },
+  "footer": {
+    "contactInfo": {
+      "contactInfoTitle" : "contact information",
+      "address" : "Address",
+      "addressDetails" : "23 Al Obour Buildings, Heliopolis, Cairo, Egypt",
+      "phone" : "phone",
+      "phone1" : "(+20) 1000910004",
+      "phone2" : "(+20) 1099090422",
+      "Email" : "Email",
+      "emailAddress" : "info@universites.com"
+
+    },
+    "importantLinks" : {
+      "importantLinksTitle" : "important Links",
+      "aboutUs" : "about us",
+      "contactUs" : "contact us",
+      "myAccount" : "my account",
+      "privacyPolicy" : "privacy policy",
+      "termsConditions" : "terms and conditions"
+    }
+  },
+
+  "auth":{
+    "login": "login",
+    "registration" : "registration",
+    "userName" : "User name",
+    "password" : "password"
+  }
+}

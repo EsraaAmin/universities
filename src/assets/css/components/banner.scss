@@ -1,0 +1,39 @@
+$main-color: #ec5120;
+
+.slide {
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(13, 63, 143, 0.28);
+
+    .content {
+     
+      position: absolute;
+      top: 50%;
+      right: 0;
+      left: 0;
+     
+
+      @media(max-width: 576px) {
+        top: 17%;
+      
+      }
+
+    .autocomplete{
+      .autocomplete__box {
+        padding: 2% 5% !important;
+      }
+    } 
+
+    }
+  }
+
+  img{
+    max-height: 650px;
+  }
+
+}

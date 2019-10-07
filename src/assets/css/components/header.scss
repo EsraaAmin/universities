@@ -1,0 +1,10 @@
+$main-color: #0d3f8f;
+$grey-color : #f5f5f5;
+.navbar{
+  .switchLang{
+    &:focus{
+      outline: none !important
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+$grey-color : #f5f5f5;
+$main-color: #ec5120;
+.categories {
+ p{
+    // font-family: Montserrat-Bold;
+
+    .rtl &{
+      // font-family: Cairo-Bold;
+    }
+ }
+
+}
