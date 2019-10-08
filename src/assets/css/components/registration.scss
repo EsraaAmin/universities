@@ -1,0 +1,24 @@
+$main-color: #0d3f8f;
+.registration{
+    height: 100vh;
+    display: table;
+    form {
+        display: table-cell;
+        vertical-align: middle;
+
+        .form-control {
+            height: 4em;
+            border-top: 0;
+            border-right: 0;
+            border-left: 0;
+            border-radius: 0;
+            transition: all 0.5s ease-in-out;
+
+            &:focus{
+                box-shadow: none;
+                border-bottom: 2px solid $main-color;
+                padding-bottom: 1em;
+            }
+        }
+    }
+}

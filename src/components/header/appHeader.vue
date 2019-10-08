@@ -8,12 +8,14 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item">
             <router-link class="nav-link" :to="`/${$i18n.locale}/login`">{{ $t('nav.login')}}</router-link>
+            <!-- <font-awesome-icon icon="user-edit" class="fal"></font-awesome-icon> -->
           </li>
           <li class="nav-item">
             <router-link class="nav-link" :to="`/${$i18n.locale}/register`">{{ $t('nav.register')}}</router-link>
+            <!-- <font-awesome-icon icon="user"></font-awesome-icon> -->
           </li>
           <li class="nav-item">
             <select v-model="$i18n.locale" @change="changeLanguage" class="h-100 border-0 switchLang">
@@ -29,7 +31,7 @@
 </template>
 
 <style scoped lang="scss">
-  @import "../../assets/css/components/header.scss";
+  @import "@/assets/css/components/header.scss";
 </style>
 
 
