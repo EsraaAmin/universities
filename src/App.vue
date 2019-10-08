@@ -15,7 +15,6 @@
     components: {
       appHeader,
       appFooter
-
     }
   }
   </script>
