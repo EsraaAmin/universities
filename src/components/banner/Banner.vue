@@ -43,8 +43,3 @@
   </div>
 </template>
 <script src="../banner/Banner.js"></script>
-
-
-<style scoped lang="scss">
-  @import "@/assets/css/components/banner.scss";
-</style>

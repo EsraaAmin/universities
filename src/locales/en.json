@@ -44,7 +44,15 @@
   "auth":{
     "login": "login",
     "registration" : "registration",
-    "userName" : "User name",
-    "password" : "password"
+    "register" : "Register Now",
+    "firstName" : "First Name",
+    "lastName" : "Last Name",
+    "emailAddress" : "Email",
+    "password" : "Password",
+    "confirmPass" : "Confirm Password",
+    "male" : "Male",
+    "female" : "Female",
+    "selectCountry" : "Select a country",
+    "agreeTerms" : "I agree with terms and conditions"
   }
 }

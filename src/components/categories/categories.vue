@@ -28,8 +28,3 @@
   </section>
 </template>
 <!-- <script src="../categories/categories.js"></script> -->
-
-
-<style scoped lang="scss">
-  @import "../../assets/css/components/categories.scss";
-</style>
