@@ -30,9 +30,6 @@
   </nav>
 </template>
 
-<style scoped lang="scss">
-  @import "@/assets/css/components/header.scss";
-</style>
 
 
 <script>
@@ -46,7 +43,7 @@
       changeLanguage(e) {
         const lang = e.target.value
         const to = this.$router.resolve({ params: { lang } })
-        this.$router.push(to.location)
+        this.$router.push(to.location)  
       }
     }
   }

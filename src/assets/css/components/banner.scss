@@ -28,12 +28,16 @@ $main-color: #ec5120;
         padding: 2% 5% !important;
       }
     } 
+    .form-control:focus{
+      box-shadow: none !important;
+    }
 
     }
   }
 
   img{
     max-height: 650px;
+    object-fit: cover;
   }
 
 }

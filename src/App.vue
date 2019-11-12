@@ -15,12 +15,11 @@
     components: {
       appHeader,
       appFooter
-
     }
   }
   </script>
 
 
-<style scoped lang="scss">
-  @import '@/assets/css/components/global.scss';
+<style lang="scss">
+  @import '@/assets/css/components/app.scss';
 </style>

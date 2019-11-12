@@ -60,6 +60,3 @@
         </div>
     </footer>
 </template>
-<style scoped lang="scss">
-    @import "../../assets/css/components/footer.scss";
-</style>
