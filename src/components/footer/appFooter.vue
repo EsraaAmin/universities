@@ -1,7 +1,7 @@
 <template>
-    <footer class="container-fluid text-light pt-4 mt-4">
+    <footer class="container-fluid text-light pt-4">
         <div class="container f-content">
-            <div class="row">
+            <div class="row ">
                 <div class="col-lg-4 col-12">
                     <div class="block">
                         <div class="block-title">

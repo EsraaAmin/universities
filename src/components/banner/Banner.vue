@@ -8,19 +8,13 @@
           <div class="content container">
             <form action="">
               <div class="row">
-                <div class="col-md-4 col-12">
-                  <autocomplete ref="autocomplete" :placeholder="$t('banner.applayerName')"
-                    :source="distributionGroupsEndpoint" input-class="form-control" results-property="data"
-                    :results-display="formattedDisplay" :request-headers="authHeaders" @selected="addDistributionGroup">
-                  </autocomplete>
-                </div>
-                <div class="col-md-4 col-12">
+                <div class="col-md-6 col-12">
                   <autocomplete ref="autocomplete" :placeholder="$t('banner.facultyName')"
                     :source="distributionGroupsEndpoint" input-class="form-control" results-property="data"
                     :results-display="formattedDisplay" :request-headers="authHeaders" @selected="addDistributionGroup">
                   </autocomplete>
                 </div>
-                <div class="col-md-4 col-12">
+                <div class="col-md-6 col-12">
                   <autocomplete ref="autocomplete" :placeholder="$t('banner.universityName')"
                     :source="distributionGroupsEndpoint" input-class="form-control" results-property="data"
                     :results-display="formattedDisplay" :request-headers="authHeaders" @selected="addDistributionGroup">
@@ -28,7 +22,7 @@
                 </div>
               </div>
               <div class="col-12 text-center mt-4">
-                <button class="btn w-25 bg-white">{{ $t('banner.search')}}</button>
+                <router-link class="btn w-25 bg-white" :to="`/${$i18n.locale}/WhoAreYou`">{{ $t('banner.search')}}</router-link>
               </div>
             </form>
           </div> 

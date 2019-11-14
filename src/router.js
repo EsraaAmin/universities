@@ -33,6 +33,31 @@ export default new Router({
               path: 'register',
               name: 'register',
               component: () => import('./views/Registration/Register.vue')
+            },
+            {
+              path: 'WhoAreYou',
+              name: 'WhoAreYou',
+              component: () => import('./views/WhoAreYou/WhoAreYou.vue')
+            },
+            {
+              path: 'student',
+              name: 'student',
+              component: () => import('./views/Student/Student.vue')
+            },
+            {
+              path: 'graduate',
+              name: 'graduate',
+              component: () => import('./views/Graduate/Graduate.vue')
+            },
+            {
+              path: 'masterStudent',
+              name: 'masterStudent',
+              component: () => import('./views/MasterStudent/MasterStudent.vue')
+            },
+            {
+              path: 'facultyMember',
+              name: 'facultyMember',
+              component: () => import('./views/FacultyMember/FacultyMember.vue')
             }
         ]
       
