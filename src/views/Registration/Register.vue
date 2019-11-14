@@ -3,26 +3,30 @@
         <div class="form_wrapper">
             <div class="form_container">
                 <div class="title_container">
-                    <h2> <p>{{$t('auth.registration')}}</p></h2>
+                    <h2>
+                        <p>{{$t('auth.registration')}}</p>
+                    </h2>
                 </div>
                 <div class="row clearfix">
                     <div class="">
                         <form>
-                                <div class="row clearfix">
-                                        <div class="col_half">
-                                            <div class="input_field">
-                                                <span>
-                                                    <font-awesome-icon icon="user"></font-awesome-icon>
-                                                </span>
-                                                <input type="text" name="name" :placeholder="$t('auth.firstName')" required/>
-                                            </div>
-                                        </div>
-                                        <div class="col_half">
-                                            <div class="input_field"> <span><font-awesome-icon icon="user"></font-awesome-icon></i></span>
-                                                <input type="text" name="name" :placeholder="$t('auth.lastName')" required />
-                                            </div>
-                                        </div>
+                            <div class="row clearfix">
+                                <div class="col_half">
+                                    <div class="input_field">
+                                        <span>
+                                            <font-awesome-icon icon="user"></font-awesome-icon>
+                                        </span>
+                                        <input type="text" name="name" :placeholder="$t('auth.firstName')" required />
                                     </div>
+                                </div>
+                                <div class="col_half">
+                                    <div class="input_field"> <span>
+                                            <font-awesome-icon icon="user"></font-awesome-icon></i>
+                                        </span>
+                                        <input type="text" name="name" :placeholder="$t('auth.lastName')" required />
+                                    </div>
+                                </div>
+                            </div>
                             <div class="input_field">
                                 <span>
                                     <font-awesome-icon icon="envelope"></font-awesome-icon>
@@ -41,7 +45,7 @@
                                 </span>
                                 <input type="password" name="password" :placeholder="$t('auth.confirmPass')" required />
                             </div>
-                           
+
                             <div class="input_field radio_option">
                                 <input type="radio" name="radiogroup1" id="rd1">
                                 <label for="rd1">{{$t('auth.male')}}</label>

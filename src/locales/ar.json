@@ -52,5 +52,13 @@
     "female" : "أنثى",
     "selectCountry" : "اختر الدولة",
     "agreeTerms" : "أتفق مع الشروط والاحكام"
+  },
+  "whoYouAre": {
+    "areYou": "هل أنت ...؟",
+    "student": "طالب",
+    "gradute": "خريج",
+    "masterStudent": "طالب دراسات عليا",
+    "facultyMember": "عضو هيئة تدريس"
+    
   }
 }

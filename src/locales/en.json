@@ -54,5 +54,14 @@
     "female" : "Female",
     "selectCountry" : "Select a country",
     "agreeTerms" : "I agree with terms and conditions"
+  },
+
+  "whoYouAre": {
+    "areYou": "Are You ...?",
+    "student": "Student",
+    "gradute": "Gradute",
+    "masterStudent": "Master Student",
+    "facultyMember": "Faculty Member"
+    
   }
 }
