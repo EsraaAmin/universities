@@ -5,12 +5,14 @@
     "cart": "cart",
     "lang": "English"
   },
+  
   "banner" :{
     "applayerName" : "applayer name",
     "facultyName" : "faculty or institute name",
     "universityName" : "university name",
     "search" : "search"
   },
+
   "categories": {
     "sendOrderTitle" : "send servece order",
     "sendOrderContent" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
@@ -19,6 +21,7 @@
     "goToReceiveDocumentTitle" : "go to receive document",
     "goToRecieveDocumentTitle" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
   },
+
   "footer": {
     "contactInfo": {
       "contactInfoTitle" : "contact information",
@@ -31,6 +34,7 @@
       "emailAddress" : "info@universites.com"
 
     },
+
     "importantLinks" : {
       "importantLinksTitle" : "important Links",
       "aboutUs" : "about us",
@@ -63,5 +67,26 @@
     "masterStudent": "Master Student",
     "facultyMember": "Faculty Member"
     
+  },
+
+  "studentSrevices": {
+    "selectService" : "Select Service",
+    "tuitionFees" : "Tuition Fees",
+    "Card": "Card",
+    "certificateConcern": "Certificate whom it may concern",
+    "studentName" : "Name",
+    "studentId": "ID Number",
+    "studentNumber": "Student Number",
+    "Year": "Year",
+    "Destination": "Destination",
+    "submit": "Continue"
+  },
+
+  "graduateSrevices": {
+    "graduationCertificate": "Graduation Certificate",
+    "temporaryCertificate" :"Temporary Certificate",
+    "statementOfDegrees": "Statement of Degrees",
+    "graduationYear": "Graduation Year",
+    "grade": "Grade"
   }
 }

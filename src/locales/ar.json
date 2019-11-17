@@ -5,12 +5,14 @@
     "cart": "العربة",
     "lang": "عربى"
   },
+
   "banner": {
     "applayerName": "اسم مقدم الطلب",
     "facultyName": "اسم الكلية او المعهد",
     "universityName": "اسم الجامعة",
     "search": "بحث"
   },
+
   "categories": {
     "sendOrderTitle": "ارسل طلب الخدمة",
     "sendOrderContent": "لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ...",
@@ -19,6 +21,7 @@
     "goToReceiveDocumentTitle": "قم بالذهاب لاستلام الوثيقة",
     "goToRecieveDocumentTitle": "لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ..."
   },
+
   "footer": {
     "contactInfo": {
       "contactInfoTitle": "معلومات للتواصل",
@@ -30,6 +33,7 @@
       "Email": "البريد الالكترونى ",
       "emailAddress": "info@universites.com"
     },
+
     "importantLinks": {
       "importantLinksTitle": "روابط هامة",
       "aboutUs": "من نحن",
@@ -39,6 +43,7 @@
       "termsConditions": "الشروط و الأحكام"
     }
   },
+
   "auth": {
     "login": "تسجيل الدخول",
     "registration": "التسجيل",
@@ -53,6 +58,7 @@
     "selectCountry" : "اختر الدولة",
     "agreeTerms" : "أتفق مع الشروط والاحكام"
   },
+
   "whoYouAre": {
     "areYou": "هل أنت ...؟",
     "student": "طالب",
@@ -60,5 +66,26 @@
     "masterStudent": "طالب دراسات عليا",
     "facultyMember": "عضو هيئة تدريس"
     
+  },
+
+  "studentSrevices": {
+    "selectService" : "اختار الخدمة",
+    "tuitionFees" : "مصروفات دراسية",
+    "Card": "كارنيه",
+    "certificateConcern": "شهادة الى من يهمه الامر",
+    "studentName" : "الاسم",
+    "studentId": "الرقم القومى",
+    "studentNumber": "رقم الطالب",
+    "Year": "السنة الدراسية",
+    "Destination": "الجهه الموجه اليها",
+    "submit": "متابعة"
+  },
+
+  "graduateSrevices": {
+    "graduationCertificate": "شهادة تخرج",
+    "temporaryCertificate" :"شهادة مؤقتة",
+    "statementOfDegrees": "بيان درجات",
+    "graduationYear": "سنة التخرج",
+    "grade": "التقدير"
   }
 }
