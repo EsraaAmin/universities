@@ -1,5 +1,5 @@
 <template>
-  <section class="categories container mt-5 text-center">
+  <section class="categories container mt-5 mb-5 text-center">
     <div class="row">
       <div class="col-lg-4 col-md-6 col-12 category-item">
         <div class="category">

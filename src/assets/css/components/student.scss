@@ -1,0 +1,26 @@
+.studentView{
+    min-height: 100vh;
+
+    .studentCard{
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        display: table;
+        box-shadow: 0px 0px 31px -19px rgba(0, 0, 0, 0.75);
+        transition: all 0.5s ease-in-out;
+        background-image: linear-gradient(to left top, #0d3f8f, #2755aa, #3b6cc6, #4e84e2, #609dff);
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+
+        &:hover{
+            width: 310px;
+            height: 310px;
+        }
+
+        .service{
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}

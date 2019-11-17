@@ -40,14 +40,14 @@ export default new Router({
               component: () => import('./views/WhoAreYou/WhoAreYou.vue')
             },
             {
-              path: 'student',
-              name: 'student',
-              component: () => import('./views/Student/Student.vue')
+              path: 'StudentServices',
+              name: 'StudentServices',
+              component: () => import('./views/StudentServices/StudentServices.vue')
             },
             {
-              path: 'graduate',
-              name: 'graduate',
-              component: () => import('./views/Graduate/Graduate.vue')
+              path: 'GraduateServices',
+              name: 'GraduateServices',
+              component: () => import('./views/GraduateServices/GraduateServices.vue')
             },
             {
               path: 'masterStudent',
@@ -58,6 +58,36 @@ export default new Router({
               path: 'facultyMember',
               name: 'facultyMember',
               component: () => import('./views/FacultyMember/FacultyMember.vue')
+            },
+            {
+              path: 'tuitionFees',
+              name: 'tuitionFees',
+              component: () => import('./views/TuitionFees/TuitionFees.vue')
+            },
+            {
+              path: 'StudentCard',
+              name: 'StudentCard',
+              component: () => import('./views/StudentCard/StudentCard.vue')
+            },
+            {
+              path: 'certificateConcern',
+              name: 'certificateConcern',
+              component: () => import('./views/CertificateConcern/CertificateConcern.vue')
+            },
+            {
+              path: 'GraduationCertificate',
+              name: 'GraduationCertificate',
+              component: () => import('./views/GraduationCertificate/GraduationCertificate.vue')
+            },
+            {
+              path: 'TemporaryCertificate',
+              name: 'TemporaryCertificate',
+              component: () => import('./views/TemporaryCertificate/TemporaryCertificate.vue')
+            },
+            {
+              path: 'StatementOfDegrees',
+              name: 'StatementOfDegrees',
+              component: () => import('./views/StatementOfDegrees/StatementOfDegrees.vue')
             }
         ]
       
