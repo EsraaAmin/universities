@@ -10,7 +10,8 @@
     "applayerName" : "applayer name",
     "facultyName" : "faculty or institute name",
     "universityName" : "university name",
-    "search" : "search"
+    "search" : "search",
+    "alexUniversity": "Alex Universitu"
   },
 
   "categories": {
