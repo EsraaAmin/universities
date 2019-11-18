@@ -10,7 +10,8 @@
     "applayerName" : "applayer name",
     "facultyName" : "faculty or institute name",
     "universityName" : "university name",
-    "search" : "search"
+    "search" : "search",
+    "alexUniversity": "Alex Universitu"
   },
 
   "categories": {
@@ -79,7 +80,9 @@
     "studentNumber": "Student Number",
     "Year": "Year",
     "Destination": "Destination",
-    "submit": "Continue"
+    "submit": "Continue",
+    "back" : "Back",
+    "checkoutPhrase" : "You have applied for a"
   },
 
   "graduateSrevices": {
@@ -88,5 +91,12 @@
     "statementOfDegrees": "Statement of Degrees",
     "graduationYear": "Graduation Year",
     "grade": "Grade"
+  },
+
+  "masterServices": {
+    "temporaryCertificate" :"Temporary Certificate",
+    "CertificateOfEnrollment" : "Certificate of enrollment",
+    "card" : "Card"
+
   }
 }

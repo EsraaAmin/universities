@@ -50,9 +50,9 @@ export default new Router({
               component: () => import('./views/GraduateServices/GraduateServices.vue')
             },
             {
-              path: 'masterStudent',
-              name: 'masterStudent',
-              component: () => import('./views/MasterStudent/MasterStudent.vue')
+              path: 'MasterServices',
+              name: 'MasterServices',
+              component: () => import('./views/MasterServices/MasterServices.vue')
             },
             {
               path: 'facultyMember',
@@ -80,15 +80,31 @@ export default new Router({
               component: () => import('./views/GraduationCertificate/GraduationCertificate.vue')
             },
             {
-              path: 'TemporaryCertificate',
-              name: 'TemporaryCertificate',
-              component: () => import('./views/TemporaryCertificate/TemporaryCertificate.vue')
+              path: 'GraduateTemporaryCertificate',
+              name: 'GraduateTemporaryCertificate',
+              component: () => import('./views/GraduateTemporaryCertificate/GraduateTemporaryCertificate.vue')
             },
             {
               path: 'StatementOfDegrees',
               name: 'StatementOfDegrees',
               component: () => import('./views/StatementOfDegrees/StatementOfDegrees.vue')
+            },
+            {
+              path: 'MasterTemporaryCertificate',
+              name: 'MasterTemporaryCertificate',
+              component: () => import('./views/MasterTemporaryCertificate/MasterTemporaryCertificate.vue')
+            },
+            {
+              path: 'MasterEnrollmentCertificate',
+              name: 'MasterEnrollmentCertificate',
+              component: () => import('./views/MasterEnrollmentCertificate/MasterEnrollmentCertificate.vue')
+            },
+            {
+              path: 'MasterCard',
+              name: 'MasterCard',
+              component: () => import('./views/MasterCard/MasterCard.vue')
             }
+
         ]
       
       }

@@ -8,18 +8,19 @@
           <div class="content container">
             <form action="">
               <div class="row">
-                <div class="col-md-6 col-12">
+                <h1 class="text-center text-white ml-auto mr-auto mb-3 ">{{ $t('banner.alexUniversity')}}</h1>
+                <div class="col-12">
                   <autocomplete ref="autocomplete" :placeholder="$t('banner.facultyName')"
                     :source="distributionGroupsEndpoint" input-class="form-control" results-property="data"
                     :results-display="formattedDisplay" :request-headers="authHeaders" @selected="addDistributionGroup">
                   </autocomplete>
                 </div>
-                <div class="col-md-6 col-12">
+                <!-- <div class="col-md-6 col-12">
                   <autocomplete ref="autocomplete" :placeholder="$t('banner.universityName')"
                     :source="distributionGroupsEndpoint" input-class="form-control" results-property="data"
                     :results-display="formattedDisplay" :request-headers="authHeaders" @selected="addDistributionGroup">
                   </autocomplete>
-                </div>
+                </div> -->
               </div>
               <div class="col-12 text-center mt-4">
                 <router-link class="btn w-25 bg-white" :to="`/${$i18n.locale}/WhoAreYou`">{{ $t('banner.search')}}</router-link>

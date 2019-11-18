@@ -6,7 +6,6 @@ export default {
         return {
             showForm: true,
             inputName: "",
-            inputId: "",
             inputStudentNum: "",
             inputYear: ""
         }

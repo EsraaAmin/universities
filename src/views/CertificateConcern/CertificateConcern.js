@@ -7,8 +7,7 @@ export default {
             showForm: true,
             inputName: "",
             inputId: "",
-            inputStudentNum: "",
-            inputYear: ""
+            destination: ""
         }
     },
     methods: {

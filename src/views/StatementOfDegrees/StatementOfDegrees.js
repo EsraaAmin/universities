@@ -5,21 +5,20 @@ export default {
     data() {
         return {
             showForm: true,
-            inputName: "",
+            inputGrade: "",
             inputId: "",
-            inputStudentNum: "",
             inputYear: ""
         }
     },
     methods: {
         submitForm() {
-          return this.showForm = false
-     
+            return this.showForm = false
+
         },
 
         backForm() {
             return this.showForm = true
-       
-          }
+
+        }
     }
 }

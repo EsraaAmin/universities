@@ -40,7 +40,7 @@
                         </router-link>
                     </div>
                     <div class="col-md-3 col-12 employee-1">
-                        <router-link :to="`/${$i18n.locale}/masterStudent`">
+                        <router-link :to="`/${$i18n.locale}/MasterServices`">
                             <div class="employee">
                                 <div class="employee-image">
                                     <img src="@/assets/images/Students-focused-in-political-science-class.png"

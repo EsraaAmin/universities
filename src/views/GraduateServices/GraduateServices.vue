@@ -13,7 +13,7 @@
                         </router-link>
                     </div>
                     <div class="col-md-4 col-12">
-                        <router-link :to="`/${$i18n.locale}/TemporaryCertificate`">
+                        <router-link :to="`/${$i18n.locale}/GraduateTemporaryCertificate`">
                             <div class="studentCard m-auto">
                                 <p class="service"> {{ $t('graduateSrevices.temporaryCertificate')}} </p>   
                             </div>

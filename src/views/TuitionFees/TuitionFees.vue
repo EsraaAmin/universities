@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid tuitionFees serviceForm  text-center d-flex">
     <div class="container align-self-center">
-      <form id="contact" class="contact" action="" method="" v-if="showForm">
+      <form id="contact" class="contact" action="" method="post" v-if="showForm" @submit.prevent="submitForm()">
         <h3 class="mb-3">{{ $t('studentSrevices.tuitionFees')}}</h3>
         <fieldset>
           <input :placeholder="$t('studentSrevices.studentName')" type="text" tabindex="1" required v-model="inputName">
@@ -19,19 +19,20 @@
 
         <fieldset>
           <button name="submit" type="submit" id="contact-submit" data-submit=""
-            @click="submitForm">{{$t('studentSrevices.submit')}}</button>
+            >{{$t('studentSrevices.submit')}}</button>
         </fieldset>
       </form>
 
       <div class="checkout contact" v-else>
-        <p>{{$t('studentSrevices.studentName')}}: {{inputName}}</p>
-        <p>{{$t('studentSrevices.studentId')}}: {{inputId}}</p>
-        <p>{{$t('studentSrevices.studentNumber')}}: {{inputStudentNum}}</p>
-        <p>{{$t('studentSrevices.Year')}}: {{inputYear}}</p>
+        <h2>{{$t('studentSrevices.checkoutPhrase')}} <span>{{$t('studentSrevices.tuitionFees')}}</span></h2>
+        <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
+        <p><strong>{{$t('studentSrevices.studentId')}}:</strong> {{inputId}}</p>
+        <p><strong>{{$t('studentSrevices.studentNumber')}}:</strong> {{inputStudentNum}}</p>
+        <p><strong>{{$t('studentSrevices.Year')}}:</strong> {{inputYear}}</p>
 
-        <fieldset>
+        <fieldset class="text-center">
           <button class="ml-2" name="submit" type="submit" id="contact-submit"
-            data-submit="">{{$t('studentSrevices.submit')}}</button>
+            data-submit="" @click="backForm">{{$t('studentSrevices.back')}}</button>
 
           <button name="submit" type="submit" id="contact-submit"
             data-submit="">{{$t('studentSrevices.submit')}}</button>
