@@ -78,7 +78,9 @@
     "studentNumber": "رقم الطالب",
     "Year": "السنة الدراسية",
     "Destination": "الجهه الموجه اليها",
-    "submit": "متابعة"
+    "submit": "متابعة",
+    "back" : "رجوع",
+    "checkoutPhrase" : "لقد قمت بتقديم طلب دفع رسوم  "
   },
 
   "graduateSrevices": {
@@ -87,5 +89,11 @@
     "statementOfDegrees": "بيان درجات",
     "graduationYear": "سنة التخرج",
     "grade": "التقدير"
+  },
+
+  "masterServices": {
+    "temporaryCertificate" :"شهادة مؤقتة",
+    "CertificateOfEnrollment" : "شهادة قيد",
+    "card" : "استخرج كارنيه"
   }
 }

@@ -2,22 +2,18 @@
     <div class="container-fluid tuitionFees serviceForm  text-center d-flex">
         <div class="container align-self-center">
             <form id="contact" class="contact" action="" method="post" v-if="showForm" @submit.prevent="submitForm()">
-                <h3 class="mb-3">{{ $t('graduateSrevices.statementOfDegrees')}}</h3>
+                <h3 class="mb-3">{{ $t('graduateSrevices.temporaryCertificate')}}</h3>
                 <fieldset>
-                    <input :placeholder="$t('studentSrevices.studentName')" type="text" tabindex="1" required
-                        v-model="inputName">
+                    <input :placeholder="$t('studentSrevices.studentName')" type="text" tabindex="1" required v-model="inputName">
                 </fieldset>
                 <fieldset>
-                    <input :placeholder="$t('studentSrevices.studentId')" type="text" tabindex="2" required
-                        v-model="inputId">
+                    <input :placeholder="$t('studentSrevices.studentId')" type="text" tabindex="2" required v-model="inputId">
                 </fieldset>
                 <fieldset>
-                    <input :placeholder="$t('graduateSrevices.graduationYear')" type="text" tabindex="3" required
-                        v-model="inputYear">
+                    <input :placeholder="$t('graduateSrevices.graduationYear')" type="text" tabindex="3" required v-model="inputYear">
                 </fieldset>
                 <fieldset>
-                    <input :placeholder="$t('graduateSrevices.grade')" type="text" tabindex="4" required
-                        v-model="inputGrade">
+                    <input :placeholder="$t('graduateSrevices.grade')" type="text" tabindex="4" required v-model="inputGrade">
                 </fieldset>
                 <fieldset>
                     <button name="submit" type="submit" id="contact-submit"
@@ -26,8 +22,7 @@
             </form>
 
             <div class="checkout contact" v-else>
-                <h2>{{$t('studentSrevices.checkoutPhrase')}}
-                    <span>{{ $t('graduateSrevices.statementOfDegrees')}}</span></h2>
+                <h2>{{$t('studentSrevices.checkoutPhrase')}} <span>{{ $t('graduateSrevices.temporaryCertificate')}}</span></h2>
                 <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
                 <p><strong>{{$t('studentSrevices.studentNumber')}}:</strong> {{inputId}}</p>
                 <p><strong>{{$t('studentSrevices.Year')}}:</strong> {{inputYear}}</p>
@@ -49,4 +44,4 @@
     </div>
 </template>
 
-<script src="./StatementOfDegrees.js"></script>
+<script src="./GraduateTemporaryCertificate.js"></script>
