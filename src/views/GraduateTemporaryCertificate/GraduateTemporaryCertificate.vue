@@ -1,8 +1,9 @@
 <template>
-    <div class="container-fluid tuitionFees serviceForm  text-center d-flex">
-        <div class="container align-self-center">
+    <div class="container-fluid tuitionFees serviceForm component-content  text-center d-flex">
+            <div class="overlay"></div>
+        <div class="container align-self-center form-container">
             <form id="contact" class="contact" action="" method="post" v-if="showForm" @submit.prevent="submitForm()">
-                <h3 class="mb-3">{{ $t('graduateSrevices.temporaryCertificate')}}</h3>
+                <h3 class="mb-3 page-title">{{ $t('graduateSrevices.temporaryCertificate')}}</h3>
                 <fieldset>
                     <input :placeholder="$t('studentSrevices.studentName')" type="text" tabindex="1" required v-model="inputName">
                 </fieldset>
@@ -21,7 +22,7 @@
                 </fieldset>
             </form>
 
-            <div class="checkout contact" v-else>
+            <div class="checkout contact text-white" v-else>
                 <h2>{{$t('studentSrevices.checkoutPhrase')}} <span>{{ $t('graduateSrevices.temporaryCertificate')}}</span></h2>
                 <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
                 <p><strong>{{$t('studentSrevices.studentNumber')}}:</strong> {{inputId}}</p>

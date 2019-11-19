@@ -1,8 +1,9 @@
 <template>
-        <div class="container-fluid tuitionFees serviceForm  text-center d-flex">
-            <div class="container align-self-center">
+        <div class="container-fluid tuitionFees serviceForm component-content  text-center d-flex">
+                <div class="overlay"></div>
+            <div class="container align-self-center form-container">
                 <form id="contact" class="contact" action="" method="post">
-                    <h3 class="mb-3">{{ $t('graduateSrevices.temporaryCertificate')}}</h3>
+                    <h3 class="mb-3 page-title">{{ $t('graduateSrevices.temporaryCertificate')}}</h3>
                     <fieldset>
                         <input :placeholder="$t('studentSrevices.studentName')" type="text" tabindex="1" required>
                     </fieldset>
