@@ -1,24 +1,26 @@
+
 .applayerCard{
     min-height: 100vh;
-    // background: rgba(13, 63, 143, 0.28);
+    position: relative;
 
-   
       .employee {
         width:100%;
-        background-color:#0d3f8f;
+        background-color:rgba(255, 255, 255, 0.45);
         margin:10px auto;
         display:block;
-        overflow:hidden;
-       height: 450px;
-        border-radius:10px;
         -webkit-box-shadow: 0px 0px 31px -19px rgba(0,0,0,0.75);
-      -moz-box-shadow: 0px 0px 31px -19px rgba(0,0,0,0.75);
-      box-shadow: 0px 0px 31px -19px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 31px -19px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 31px -19px rgba(0,0,0,0.75);
+        padding: 30px;
+        color: #0d3f8f;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          background-color:rgba(255, 255, 255, 1);
+        }
       }
     
       .employee-image {
-        background-color:#fff;
-        height:400px;
         width:100%;
         transition:0.5s;
       }
@@ -27,7 +29,6 @@
         object-fit: cover;
       }
       .employee-name {
-        color:#fff;
         font-weight:bold;
         padding:5px;
       }

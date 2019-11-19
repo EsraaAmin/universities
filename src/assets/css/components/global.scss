@@ -15,3 +15,27 @@ a{
   }
   
 }
+// E:\esraa_works\university_app\src\assets\images\componentBg.jpg
+.component-content{
+  position: relative;
+  background-image: url('~@/assets/images/componentBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(13, 63, 143, 0.28);
+  }
+
+  .page-title{
+    color: #fff;
+  }
+
+  .form-container{
+    z-index: 1;
+  }
+}
