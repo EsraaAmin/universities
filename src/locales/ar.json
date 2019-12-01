@@ -65,7 +65,11 @@
     "student": "طالب",
     "gradute": "خريج",
     "masterStudent": "طالب دراسات عليا",
-    "facultyMember": "عضو هيئة تدريس"
+    "facultyMember": "عضو هيئة تدريس",
+    "price" : "السعر",
+    "EgCurrency" : "جنيه",
+    "checkout" : "إنهاء الطلب",
+    "checkoutContact" : "سيتم التواصل معك بمجرد الانتهاء من مراجعة البيانات وتحديد موعد لاستلام الوثيقة."
     
   },
 
@@ -89,7 +93,8 @@
     "temporaryCertificate" :"شهادة مؤقتة",
     "statementOfDegrees": "بيان درجات",
     "graduationYear": "سنة التخرج",
-    "grade": "التقدير"
+    "grade": "التقدير",
+    "numOfDoc" : "العدد"
   },
 
   "masterServices": {

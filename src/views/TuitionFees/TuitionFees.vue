@@ -26,17 +26,20 @@
 
       <div class="checkout contact text-white" v-else>
         <h2>{{$t('studentSrevices.checkoutPhrase')}} <span>{{$t('studentSrevices.tuitionFees')}}</span></h2>
-        <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
-        <p><strong>{{$t('studentSrevices.studentId')}}:</strong> {{inputId}}</p>
-        <p><strong>{{$t('studentSrevices.studentNumber')}}:</strong> {{inputStudentNum}}</p>
-        <p><strong>{{$t('studentSrevices.Year')}}:</strong> {{inputYear}}</p>
+        <div class="checkoutDetails m-auto col-lg-5 col-md-7 col-12">
+          <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
+          <p><strong>{{$t('studentSrevices.studentId')}}:</strong> {{inputId}}</p>
+          <p><strong>{{$t('studentSrevices.studentNumber')}}:</strong> {{inputStudentNum}}</p>
+          <p><strong>{{$t('studentSrevices.Year')}}:</strong> {{inputYear}}</p>
+          <p><strong>{{$t('whoYouAre.price')}}: 300 <span>{{$t('whoYouAre.EgCurrency')}}</span></strong></p>
+        </div>
 
         <fieldset class="text-center">
-          <button class="ml-2" name="submit" type="submit" id="contact-submit"
-            data-submit="" @click="backForm">{{$t('studentSrevices.back')}}</button>
+          <a class="ml-2 btn" name="submit" type="submit" id="contact-submit"
+            data-submit="" @click="backForm">{{$t('studentSrevices.back')}}</a>
 
-          <button name="submit" type="submit" id="contact-submit"
-            data-submit="">{{$t('studentSrevices.submit')}}</button>
+          <router-link :to="`/${$i18n.locale}/Checkout`" name="submit" type="submit" id="contact-submit"
+            data-submit="" class="btn">{{$t('studentSrevices.submit')}}</router-link>
         </fieldset>
 
 

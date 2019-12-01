@@ -103,6 +103,11 @@ export default new Router({
               path: 'MasterCard',
               name: 'MasterCard',
               component: () => import('./views/MasterCard/MasterCard.vue')
+            },
+            {
+              path: 'Checkout',
+              name: 'Checkout',
+              component: () => import('./views/Checkout/Checkout.vue')
             }
 
         ]

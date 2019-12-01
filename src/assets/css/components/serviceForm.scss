@@ -4,6 +4,12 @@
         background: rgba(130, 130, 130, 0.32);
         padding:25px;
         margin:50px 0;
+    } 
+    .checkoutDetails{
+        text-align: left;
+        .rtl &{
+            text-align: right;
+        }
     }
     
     .contact h3 {
@@ -23,8 +29,13 @@
         padding: 0;
         width: 100%;
     }
+
+    .radio {
+        width: 35px;
+        height: 16px;
+    }
     
-    .contact input[type="text"], .contact input[type="email"], .contact input[type="tel"], .contact input[type="url"], .contact textarea {
+    .contact input[type="text"], .contact input[type="email"], .contact input[type="number"], .contact input[type="url"], .contact textarea {
         width:100%;
         border:1px solid #CCC;
         background:#FFF;
@@ -32,7 +43,7 @@
         padding:10px;
     }
     
-    .contact input[type="text"]:hover, .contact input[type="email"]:hover, .contact input[type="tel"]:hover, .contact input[type="url"]:hover, .contact textarea:hover {
+    .contact input[type="text"]:hover, .contact input[type="email"]:hover, .contact input[type="number"]:hover, .contact input[type="url"]:hover, .contact textarea:hover {
         -webkit-transition:border-color 0.3s ease-in-out;
         -moz-transition:border-color 0.3s ease-in-out;
         transition:border-color 0.3s ease-in-out;
@@ -45,7 +56,7 @@
       resize:none;
     }
     
-    .contact button[type="submit"] {
+    .contact button[type="submit"], .contact a[type="submit"] {
         cursor:pointer;
         width:200px;
         border:none;
@@ -56,7 +67,7 @@
         font-size:15px;
     }
     
-    .contact button[type="submit"]:hover {
+    .contact button[type="submit"]:hover,.contact a[type="submit"]:hover {
         background:#09C;
         -webkit-transition:background 0.3s ease-in-out;
         -moz-transition:background 0.3s ease-in-out;
