@@ -9,6 +9,8 @@
                 <div class="col-md-4 col-12">
                     <router-link :to="`/${$i18n.locale}/MasterTemporaryCertificate`">
                         <div class="studentCard m-auto">
+                                <img src="@/assets/images/3883229-48.png" class="img-fluid d-block m-auto"
+                                alt="employee-image">
                             <p class="service"> {{ $t('masterServices.temporaryCertificate')}} </p>
                         </div>
                     </router-link>
@@ -16,6 +18,8 @@
                 <div class="col-md-4 col-12">
                     <router-link :to="`/${$i18n.locale}/MasterEnrollmentCertificate`">
                         <div class="studentCard m-auto">
+                                <img src="@/assets/images/3883229-48.png" class="img-fluid d-block m-auto"
+                                alt="employee-image">
                             <p class="service"> {{ $t('masterServices.CertificateOfEnrollment')}} </p>
                         </div>
                     </router-link>
@@ -23,6 +27,8 @@
                 <div class="col-md-4 col-12">
                     <router-link :to="`/${$i18n.locale}/MasterCard`">
                         <div class="studentCard m-auto">
+                             <img src="@/assets/images/216117-48.png" class="img-fluid d-block m-auto"
+                                    alt="employee-image">
                             <p class="service"> {{ $t('masterServices.card')}} </p>
                         </div>
                     </router-link>

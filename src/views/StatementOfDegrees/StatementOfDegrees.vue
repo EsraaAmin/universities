@@ -29,10 +29,13 @@
             <div class="checkout contact text-white" v-else>
                 <h2>{{$t('studentSrevices.checkoutPhrase')}}
                     <span>{{ $t('graduateSrevices.statementOfDegrees')}}</span></h2>
-                <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
-                <p><strong>{{$t('studentSrevices.studentNumber')}}:</strong> {{inputId}}</p>
-                <p><strong>{{$t('studentSrevices.Year')}}:</strong> {{inputYear}}</p>
-                <p><strong>{{$t('graduateSrevices.grade')}}:</strong> {{inputGrade}}</p>
+                    
+                    <div class="text-right m-auto col-lg-5 col-md-7 col-12">
+                        <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
+                        <p><strong>{{$t('studentSrevices.studentNumber')}}:</strong> {{inputId}}</p>
+                        <p><strong>{{$t('studentSrevices.Year')}}:</strong> {{inputYear}}</p>
+                        <p><strong>{{$t('graduateSrevices.grade')}}:</strong> {{inputGrade}}</p> 
+                    </div>
 
                 <fieldset class="text-center">
                     <button class="ml-2" name="submit" type="submit" id="contact-submit" data-submit=""

@@ -7,7 +7,9 @@ export default {
             showForm: true,
             inputName: "",
             inputId: "",
-            inputYear: ""
+            inputYear: "",
+            num: "",
+            price: 300
         }
     },
     methods: {

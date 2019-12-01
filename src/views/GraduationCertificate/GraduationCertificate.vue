@@ -14,6 +14,9 @@
                     <input :placeholder="$t('graduateSrevices.graduationYear')" type="text" tabindex="4" required v-model="inputYear">
                 </fieldset>
                 <fieldset>
+                    <input :placeholder="$t('graduateSrevices.numOfDoc')" type="number"  min="1"  tabindex="5" required v-model="num">
+                </fieldset>
+                <fieldset>
                     <button name="submit" type="submit" id="contact-submit"
                         data-submit="">{{$t('studentSrevices.submit')}}</button>
                 </fieldset>
@@ -22,16 +25,21 @@
 
             <div class="checkout contact text-white" v-else>
                 <h2>{{$t('studentSrevices.checkoutPhrase')}} <span>{{$t('graduateSrevices.graduationCertificate')}}</span></h2>
+                
+               <div class="text-right m-auto col-lg-5 col-md-7 col-12">
                 <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
                 <p><strong>{{$t('studentSrevices.studentId')}}:</strong> {{inputId}}</p>
                 <p><strong>{{$t('studentSrevices.Year')}}:</strong> {{inputYear}}</p>
+                <p><strong>{{$t('graduateSrevices.numOfDoc')}}:</strong> {{num}}</p>
+                <p><strong>{{$t('whoYouAre.price')}}:</strong> {{num}} * {{price}} = {{num * price}} <span>{{$t('whoYouAre.EgCurrency')}}</span></p>
+               </div>
 
                 <fieldset class="text-center">
                     <button class="ml-2" name="submit" type="submit" id="contact-submit" data-submit=""
                         @click="backForm">{{$t('studentSrevices.back')}}</button>
-
-                    <button name="submit" type="submit" id="contact-submit"
-                        data-submit="">{{$t('studentSrevices.submit')}}</button>
+                        
+                        <router-link :to="`/${$i18n.locale}/Checkout`" name="submit" type="submit" id="contact-submit"
+                        data-submit="" class="btn">{{$t('studentSrevices.submit')}}</router-link>
                 </fieldset>
 
 

@@ -11,7 +11,7 @@
           <input :placeholder="$t('studentSrevices.studentId')" type="text" tabindex="2" required v-model="inputId">
         </fieldset>
         <fieldset>
-          <input :placeholder="$t('studentSrevices.Destination')" type="tel" tabindex="3" required
+          <input :placeholder="$t('studentSrevices.Destination')" type="text" tabindex="3" required
             v-model="destination">
         </fieldset>
 
@@ -24,9 +24,12 @@
 
       <div class="checkout contact text-white" v-else>
         <h2>{{$t('studentSrevices.checkoutPhrase')}} <span>{{$t('studentSrevices.tuitionFees')}}</span></h2>
-        <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
-        <p><strong>{{$t('studentSrevices.studentId')}}:</strong> {{inputId}}</p>
-        <p><strong>{{$t('studentSrevices.Destination')}}:</strong> {{destination}}</p>
+        
+       <div clss="text-right m-auto col-lg-5 col-md-7 col-12">
+          <p><strong>{{$t('studentSrevices.studentName')}}:</strong> {{inputName}}</p>
+          <p><strong>{{$t('studentSrevices.studentId')}}:</strong> {{inputId}}</p>
+          <p><strong>{{$t('studentSrevices.Destination')}}:</strong> {{destination}}</p>
+       </div>
 
         <fieldset class="text-center">
           <button class="ml-2" name="submit" type="submit" id="contact-submit" data-submit=""

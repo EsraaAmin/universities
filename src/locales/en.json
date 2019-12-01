@@ -66,7 +66,11 @@
     "student": "Student",
     "gradute": "Gradute",
     "masterStudent": "Master Student",
-    "facultyMember": "Faculty Member"
+    "facultyMember": "Faculty Member",
+    "price" : "Price",
+    "EgCurrency" : "LE",
+    "checkout" : "Checkout",
+    "checkoutContact" : "You will be contacted once the data has been reviewed and an appointment is received."
     
   },
 
@@ -90,7 +94,8 @@
     "temporaryCertificate" :"Temporary Certificate",
     "statementOfDegrees": "Statement of Degrees",
     "graduationYear": "Graduation Year",
-    "grade": "Grade"
+    "grade": "Grade",
+    "numOfDoc" : "Number of Document"
   },
 
   "masterServices": {
