@@ -3,6 +3,7 @@ import './plugins/fontawesome'
 import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
+import axios from 'axios'
 
 import * as JQuery from "jquery";
 const $ = JQuery.default;
@@ -15,6 +16,10 @@ import 'bootstrap/js/dist/tooltip'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/scss/bootstrap.scss'
+
+
+Vue.prototype.$http = axios
+window.axios = axios
 
 Vue.config.productionTip = false
 

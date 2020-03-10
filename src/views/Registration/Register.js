@@ -1,25 +1,31 @@
+import Axios from "axios";
 
-import Autocomplete from 'vuejs-auto-complete'
+
 
 export default {
-  name: 'home',
+  name: 'register',
   components: {
-    Autocomplete,
+
     
   },
   data() {
     return {
+      register: {
+        firtName: "",
+        lastName: "",
+        email: "",
+        password: ""
 
-      state: 'esraa',
-
+      }
     };
   },
   mounted() {
 
+    axios.post('http://wwww.weblloapi.dev/register')
   },
   methods: {
   
-
+    
  
  
   },
